@@ -170,12 +170,12 @@ export default function Pricing() {
                             <div className="relative z-10 flex flex-col h-full transition-transform duration-700 group-hover:duration-300" style={{ transform: "translateZ(15px)" }}>
                                 
                                 <div className="flex items-center justify-between mb-8 relative">
-                                    <span className={`text-[9px] font-black tracking-[0.4em] uppercase ${plan.isPopular ? 'text-primary' : 'text-gray-400'}`}>
+                                    <span className={`text-[12px] font-black tracking-[0.4em] uppercase ${plan.isPopular ? 'text-primary' : 'text-gray-400'}`}>
                                         {plan.title}
                                     </span>
                                     {plan.isPopular && (
                                         <div className="px-3 py-1 bg-primary/20 border border-primary/30 rounded-full">
-                                            <span className="text-[8px] font-black text-primary tracking-widest uppercase">Popular</span>
+                                            <span className="text-[10px] font-black text-primary tracking-widest uppercase">Popular</span>
                                         </div>
                                     )}
                                 </div>
@@ -185,17 +185,17 @@ export default function Pricing() {
                                         <span className="shrink-0">₹</span>
                                         <span className="shrink-0">{plan.price === "CUSTOM" ? "CUSTOM" : plan.price.replace('₹', '').trim()}</span>
                                         {plan.price !== "CUSTOM" && (
-                                            <span className="text-[12px] font-black opacity-30 uppercase tracking-widest ml-1">
+                                            <span className="text-[14px] font-black opacity-30 uppercase tracking-widest ml-1">
                                                 /proj
                                             </span>
                                         )}
                                     </h3>
                                     <div className="flex items-center gap-2 opacity-20">
                                         <div className="w-6 h-[1px] bg-black" />
-                                        <span className="text-[8px] font-black uppercase tracking-[0.2em]">Agency standard</span>
+                                        <span className="text-[10px] font-black uppercase tracking-[0.2em]">{plan.title === 'BASIC PLAN' ? 'Entry Level' : 'Agency standard'}</span>
                                     </div>
                                 </div>
-                                <p className={`text-xs md:text-[13px] font-bold mb-8 leading-relaxed text-gray-400 min-h-[40px] group-hover:text-gray-700 transition-colors uppercase tracking-tight`}>
+                                <p className={`text-sm md:text-[15px] font-bold mb-8 leading-relaxed text-gray-400 min-h-[40px] group-hover:text-gray-700 transition-colors uppercase tracking-tight`}>
                                     {plan.desc}
                                 </p>
 
@@ -203,7 +203,7 @@ export default function Pricing() {
 
                                 <ul className="space-y-6 mb-16 grow text-left pt-2">
                                     {plan.features.map((feat, k) => (
-                                        <li key={k} className="flex items-start gap-4 text-[9px] md:text-[10px] font-black uppercase tracking-[0.25em] group/feat leading-normal">
+                                        <li key={k} className="flex items-start gap-4 text-[12px] md:text-[13px] font-black uppercase tracking-[0.22em] group/feat leading-normal">
                                             <div className={`mt-1.5 w-1.5 h-1.5 rounded-full shrink-0 transition-all duration-500 group-hover/feat:scale-125 bg-primary shadow-[0_0_10px_rgba(1,168,107,0.8)]`} />
                                             <span className={`transition-all duration-500 text-gray-500 group-hover/feat:text-black`}>
                                                 {feat}
