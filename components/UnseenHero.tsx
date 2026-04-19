@@ -182,7 +182,7 @@ export default function UnseenHero() {
         <div className="relative flex flex-col items-center">
             <img 
               ref={solidTextRef} 
-              src="/Images/Logo(New).png" 
+              src="/images/logo-new.png" 
               alt="Launchweb Logo" 
               className="w-72 md:w-[350px] h-auto object-contain"
             />

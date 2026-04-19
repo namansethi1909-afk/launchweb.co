@@ -95,8 +95,8 @@ const TypewriterText = ({ text, active }: { text: string, active: number }) => {
 
 const team = [
     { name: "AAVANI", role: "VISUAL IDENTITY & DESIGN", imageUrl: "/aavani.jpeg", desc: "Aavani transforms brand visions into high-impact visual identities. She blends art and strategy to create design systems that resonate." },
-    { name: "SAHIL", role: "BACKEND DEVELOPER", imageUrl: "/Images/sahil_card_image.jpeg", desc: "Sahil works on the core systems that run behind the scenes. From handling data to building scalable logic, he makes sure everything functions efficiently." },
-    { name: "NAMAN", role: "SECURITY & TESTING", imageUrl: "/Images/Naman_id.png", desc: "Naman ensures that every product is secure, stable, and production-ready. He handles deployment, hosting, and testing in real-world conditions." }
+    { name: "SAHIL", role: "BACKEND DEVELOPER", imageUrl: "/images/sahil_card_image.jpeg", desc: "Sahil works on the core systems that run behind the scenes. From handling data to building scalable logic, he makes sure everything functions efficiently." },
+    { name: "NAMAN", role: "SECURITY & TESTING", imageUrl: "/images/naman_id.png", desc: "Naman ensures that every product is secure, stable, and production-ready. He handles deployment, hosting, and testing in real-world conditions." }
 ];
 
 export default function Team() {

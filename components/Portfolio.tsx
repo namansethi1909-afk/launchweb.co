@@ -23,7 +23,7 @@ const projects = [
     desc: "Interactive visual learning platform designed for engaging educational experiences with clean UI and structured modules.",
     year: "2024",
     link: "https://visual-learning-sandy.vercel.app/week1",
-    preview: "/videos/Visual_Learning.mov",
+    preview: "/videos/visual_learning.mov",
     id: "02",
     aspect: "aspect-video"
   },
@@ -33,7 +33,7 @@ const projects = [
     desc: "Built a smart parking management system to optimize urban mobility with a seamless interface and real-time tracking.",
     year: "2024",
     link: "https://parksmart-app.vercel.app/",
-    preview: "/videos/Parksmart_Video.mp4",
+    preview: "/videos/parksmart_video.mp4",
     id: "03",
     isMobile: true,
     aspect: "aspect-[9/16]"
@@ -44,7 +44,7 @@ const projects = [
     desc: "A blockchain-inspired platform to track products from farm to table, ensuring complete transparency and trust in the supply chain.",
     year: "2024",
     link: "https://naman1167.github.io/supply_chain/",
-    preview: "/videos/Supply_Chain.mov",
+    preview: "/videos/supply_chain.mov",
     id: "04",
     aspect: "aspect-[3/2]"
   }

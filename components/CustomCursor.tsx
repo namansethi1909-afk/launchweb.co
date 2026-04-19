@@ -65,7 +65,7 @@ export default function CustomCursor() {
         }}
       >
         <img
-          src="/Images/new(Navbar).png"
+          src="/images/new-navbar.png"
           alt=""
           className="w-full h-full object-contain filter drop-shadow-[0_0_20px_rgba(1,168,107,0.4)]"
           style={{ transition: 'transform 0.1s ease-out' }}

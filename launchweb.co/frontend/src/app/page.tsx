@@ -556,9 +556,9 @@ export default function Home() {
                         {/* Terminal Column */}
                         <div className="relative translate-y-0 lg:translate-y-[-10%] transition-transform duration-700">
                             <MacTerminalTeam team={[
-                                { name: "AAVANI", role: "Visual Identity & Design", imageUrl: "/image.png", desc: "Aavani transforms brand visions into high-impact visual identities. She blends art and strategy to create design systems that resonate." },
-                                { name: "Sahil", role: "Backend Developer", imageUrl: "", desc: "Sahil works on the core systems that run behind the scenes. From handling data to building scalable logic, he makes sure everything functions efficiently." },
-                                { name: "Naman", role: "Security & Testing", imageUrl: "", desc: "Naman ensures that every product is secure, stable, and production-ready. He handles deployment, hosting, and testing in real-world conditions." }
+                                { name: "AAVANI", role: "Visual Identity & Design", imageUrl: "/aavani.jpeg", desc: "Aavani transforms brand visions into high-impact visual identities. She blends art and strategy to create design systems that resonate." },
+                                { name: "Sahil", role: "Backend Developer", imageUrl: "/Images/sahil_card_image.jpeg", desc: "Sahil works on the core systems that run behind the scenes. From handling data to building scalable logic, he makes sure everything functions efficiently." },
+                                { name: "Naman", role: "Security & Testing", imageUrl: "/Images/Naman_id.png", desc: "Naman ensures that every product is secure, stable, and production-ready. He handles deployment, hosting, and testing in real-world conditions." }
                             ]} inline />
                         </div>
                     </div>
@@ -835,9 +835,7 @@ export default function Home() {
                                                 className="block relative aspect-[4/3] w-full rounded-[32px] overflow-hidden bg-gray-50 cursor-pointer"
                                                 aria-label="Open ParkSmart"
                                             >
-                                                <div className="absolute inset-0 flex items-center justify-center">
-                                                    <span className="text-gray-100 font-black text-[6vw] group-hover:text-gray-200 transition-colors uppercase tracking-widest opacity-30 select-none">03</span>
-                                                </div>
+                                                <video src="/Videos/Parksmart_Video.mp4" muted loop playsInline autoPlay className="absolute inset-0 w-full h-full object-cover" />
                                                 <div className="absolute inset-0 bg-gradient-to-br from-[#01a86b]/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                                                 <div className="absolute top-5 right-5 w-9 h-9 rounded-full border border-black/10 flex items-center justify-center opacity-0 group-hover:opacity-100 -translate-y-3 group-hover:translate-y-0 transition-all duration-300 bg-white/90 backdrop-blur-sm shadow-sm">
                                                     <ArrowUpRight className="w-3.5 h-3.5 text-black" />
@@ -903,9 +901,7 @@ export default function Home() {
                                                 className="block relative aspect-[3/4] w-full rounded-[32px] overflow-hidden bg-gray-50 cursor-pointer"
                                                 aria-label="Open Visual Learning Platform"
                                             >
-                                                <div className="absolute inset-0 flex items-center justify-center">
-                                                    <span className="text-gray-100 font-black text-[6vw] group-hover:text-gray-200 transition-colors uppercase tracking-widest opacity-30 select-none">02</span>
-                                                </div>
+                                                <video src="/Videos/Visual_Learning.mov" muted loop playsInline autoPlay className="absolute inset-0 w-full h-full object-cover" />
                                                 <div className="absolute inset-0 bg-gradient-to-br from-[#01a86b]/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                                                 <div className="absolute top-5 right-5 w-9 h-9 rounded-full border border-black/10 flex items-center justify-center opacity-0 group-hover:opacity-100 -translate-y-3 group-hover:translate-y-0 transition-all duration-300 bg-white/90 backdrop-blur-sm shadow-sm">
                                                     <ArrowUpRight className="w-3.5 h-3.5 text-black" />
@@ -968,9 +964,7 @@ export default function Home() {
                                                 className="block relative aspect-[3/4] w-full rounded-[32px] overflow-hidden bg-gray-50 cursor-pointer"
                                                 aria-label="Open Supply Chain Platform"
                                             >
-                                                <div className="absolute inset-0 flex items-center justify-center">
-                                                    <span className="text-gray-100 font-black text-[6vw] group-hover:text-gray-200 transition-colors uppercase tracking-widest opacity-30 select-none">04</span>
-                                                </div>
+                                                <video src="/Videos/Supply_Chain.mov" muted loop playsInline autoPlay className="absolute inset-0 w-full h-full object-cover" />
                                                 <div className="absolute inset-0 bg-gradient-to-br from-[#01a86b]/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                                                 <div className="absolute top-5 right-5 w-9 h-9 rounded-full border border-black/10 flex items-center justify-center opacity-0 group-hover:opacity-100 -translate-y-3 group-hover:translate-y-0 transition-all duration-300 bg-white/90 backdrop-blur-sm shadow-sm">
                                                     <ArrowUpRight className="w-3.5 h-3.5 text-black" />

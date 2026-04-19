@@ -8,18 +8,18 @@ gsap.registerPlugin(ScrollTrigger);
 const moments = [
   { 
     item: "Web3 Mumbai × Avalanche Hackathon", 
-    leftImage: "/Images/Aavani_Hackathon.png",
-    rightImage: "/Images/Aavani_Interview.png" 
+    leftImage: "/images/aavani_hackathon.png",
+    rightImage: "/images/aavani_interview.png" 
   },
   { 
     item: "Mumbai Hacks", 
-    leftImage: "/Images/Mh_Solo.png",
-    rightImage: "/Images/Mh_Raghu(New).png" 
+    leftImage: "/images/mh_solo.png",
+    rightImage: "/images/mh-raghu-new.png" 
   },
   { 
     item: "Mumbai Tech Week", 
-    leftImage: "/Images/MTW_RR(New).png",
-    rightImage: "/Images/MTW_Sabkesath(New).png" 
+    leftImage: "/images/mtw-rr-new.png",
+    rightImage: "/images/mtw-sabkesath-new.png" 
   }
 ];
 

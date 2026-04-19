@@ -25,7 +25,7 @@ export default function Navbar() {
         <a href="#hero" className="flex items-center gap-3 group relative -ml-4">
           <div className="h-40 w-auto">
             <img 
-              src="/Images/new(Navbar).png" 
+              src="/images/new-navbar.png" 
               alt="Launchweb Logo" 
               className="h-full w-auto object-contain"
             />

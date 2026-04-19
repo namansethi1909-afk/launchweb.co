@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Next-generation digital products built for scale.",
   keywords: ["digital agency", "web design", "development", "UI/UX", "branding"],
   icons: {
-    icon: "/Images/icon.jpeg",
+    icon: "/images/icon.jpeg",
   },
   openGraph: {
     title: "launchweb.co — Digital Agency",
