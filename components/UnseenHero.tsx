@@ -190,7 +190,7 @@ export default function UnseenHero() {
       </div>
 
       {/* 🧩 MECHANICAL REVEAL ENVIRONMENT */}
-      <div className="relative z-10 w-full h-full flex flex-col items-center justify-center pointer-events-none translate-y-[6vh] translate-x-[20px]">
+      <div className="relative z-10 w-full h-full flex flex-col items-center justify-center pointer-events-none">
         
 
 
